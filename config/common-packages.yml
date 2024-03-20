@@ -3,6 +3,9 @@ install:
 # launcher
   - rofi-wayland
 
+  # shell
+  - fish
+
 # environment
   - xorg-x11-server-Xwayland
   - polkit
@@ -43,6 +46,9 @@ install:
   - p7zip
   - unrar-free
 
+# editor
+  - helix
+
 # screenshot
   - slurp
   - grim
@@ -58,6 +64,7 @@ install:
 
 # terminal
   - foot
+  - kitty
 
 # notifications
   - dunst
