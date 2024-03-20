@@ -21,22 +21,22 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          - recipe-sway.yml
-          - recipe-sway-nvidia.yml
-          - recipe-hyprland.yml
+          # - recipe-sway.yml
+          # - recipe-sway-nvidia.yml
+          # - recipe-hyprland.yml
           - recipe-hyprland-nvidia.yml
-          - recipe-river.yml
-          - recipe-river-nvidia.yml
-          - recipe-wayfire.yml
-          - recipe-wayfire-nvidia.yml
-          - recipe-sway-gdm.yml
-          - recipe-sway-nvidia-gdm.yml
-          - recipe-hyprland-gdm.yml
-          - recipe-hyprland-nvidia-gdm.yml
-          - recipe-river-gdm.yml
-          - recipe-river-nvidia-gdm.yml
-          - recipe-wayfire-gdm.yml
-          - recipe-wayfire-nvidia-gdm.yml
+          # - recipe-river.yml
+          # - recipe-river-nvidia.yml
+          # - recipe-wayfire.yml
+          # - recipe-wayfire-nvidia.yml
+          # - recipe-sway-gdm.yml
+          # - recipe-sway-nvidia-gdm.yml
+          # - recipe-hyprland-gdm.yml
+          # - recipe-hyprland-nvidia-gdm.yml
+          # - recipe-river-gdm.yml
+          # - recipe-river-nvidia-gdm.yml
+          # - recipe-wayfire-gdm.yml
+          # - recipe-wayfire-nvidia-gdm.yml
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
