@@ -24,7 +24,7 @@ jobs:
           # - recipe-sway.yml
           # - recipe-sway-nvidia.yml
           # - recipe-hyprland.yml
-          - recipe-hyprland-nvidia.yml
+          # - recipe-hyprland-nvidia.yml
           # - recipe-river.yml
           # - recipe-river-nvidia.yml
           # - recipe-wayfire.yml
@@ -32,7 +32,7 @@ jobs:
           # - recipe-sway-gdm.yml
           # - recipe-sway-nvidia-gdm.yml
           # - recipe-hyprland-gdm.yml
-          # - recipe-hyprland-nvidia-gdm.yml
+          - recipe-hyprland-nvidia-gdm.yml
           # - recipe-river-gdm.yml
           # - recipe-river-nvidia-gdm.yml
           # - recipe-wayfire-gdm.yml
